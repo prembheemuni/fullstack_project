@@ -1,0 +1,15 @@
+GET http://localhost:3001/health
+
+###
+
+POST http://localhost:3001/user/create
+content-type: application/json
+
+{
+    "name" : "Prem Bheemuni",
+    "email" : "premkumar@divami.com"
+}
+
+###
+
+GET http://localhost:3001/users
