@@ -1,3 +1,5 @@
+—> install prisma and dependencies ->Specify the db —> create models in prisma.schema —> Spin up the db using docker/any —> run prisma migrations → start the server(TS watch and nodemon)
+
 npm i typescript ts-node @types/node -D
 npx tsc —init
 npm i prisma -D
